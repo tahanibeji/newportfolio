@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>About — Tahani Beji</title>
+<meta name="description" content="More about Tahani Beji, Web Developer.">
+<script>document.documentElement.classList.add("js");</script>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%230b0c0e'/%3E%3Ccircle cx='50' cy='50' r='22' fill='none' stroke='%233df26b' stroke-width='6'/%3E%3Ccircle cx='50' cy='50' r='6' fill='%233df26b'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<link rel="stylesheet" href="style.css?v=9">
+<link rel="stylesheet" href="about.css?v=9">
+</head>
+<body class="about-page">
+
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <div class="nav-center">
+    <a class="logo-dot" href="index.html" aria-label="Tahani Beji — home"><i></i></a>
+    <a class="nav-pill" href="index.html">Home</a>
+    <a class="nav-pill active" href="aboutme.html">About</a>
+    <a class="nav-pill" href="index.html#education">Education</a>
+    <a class="nav-pill" href="index.html#skills">Skills</a>
+    <a class="nav-pill" href="index.html#projects">Projects</a>
+  </div>
+  <a class="btn nav-cta" href="index.html#contact">Say hi! <span class="arr" aria-hidden="true">→</span></a>
+</header>
+
+<main>
+  <section class="block about-hero">
+    <div class="wrap about-grid">
+      <div class="about-figure" id="aboutFigure">
+        <span class="ring ring-a" aria-hidden="true"></span>
+        <span class="ring ring-b" aria-hidden="true"></span>
+        <span class="glow" aria-hidden="true"></span>
+        <img class="cutout" src="about-cutout.png" alt="Portrait of Tahani Beji" width="760" height="1124">
+        <span class="badge badge-1"><i></i>Freelance available</span>
+        <span class="badge badge-2"><b>Zaghouan</b> · Tunisia</span>
+      </div>
+
+      <div class="about-copy">
+        <div class="sec-head">
+          <span class="pill-tag">Who I am</span>
+          <h1 class="about-title">About <b>me</b></h1>
+        </div>
+        <h3 class="about-role">Web Developer</h3>
+        <p class="about-quote">“I am a passionate web developer with a knack for creating dynamic and responsive websites.”</p>
+        <p class="about-text">I have a background in computer science and a strong passion for web development. I enjoy building user-friendly websites and am currently learning more about front-end frameworks like React.</p>
+
+        <div class="about-actions">
+          <a class="btn" href="index.html#contact">Contact me <span class="arr" aria-hidden="true">→</span></a>
+          <a class="btn btn-ghost" href="index.html"><span class="arr" aria-hidden="true">←</span> Back to CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="details">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="pill-tag">Quick facts</span>
+        <h2>A few more <b>details</b></h2>
+      </div>
+      <div class="bento">
+
+        <article class="tile tile-age">
+          <span class="tile-k"><i class="fa-solid fa-hashtag"></i> Age</span>
+          <div class="age-ring"><svg viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="52"/><circle class="arc" cx="60" cy="60" r="52"/></svg>
+            <strong class="big" data-count="20">0</strong></div>
+          <p>years old</p>
+        </article>
+
+        <article class="tile tile-bday">
+          <span class="tile-k"><i class="fa-solid fa-cake-candles"></i> Birthday</span>
+          <strong>26 January 2006</strong>
+          <p id="bdayLeft" class="tile-note">Next one soon</p>
+        </article>
+
+        <article class="tile tile-free">
+          <span class="tile-k"><i class="fa-solid fa-briefcase"></i> Freelance</span>
+          <strong class="status"><i></i>Available</strong>
+          <p class="tile-note">Open to new projects</p>
+        </article>
+
+        <article class="tile tile-langs">
+          <span class="tile-k"><i class="fa-solid fa-language"></i> Languages</span>
+          <ul class="bars">
+            <li><b>English</b><em>Fluent</em><span><i style="--w:90%"></i></span></li>
+            <li><b>French</b><em>Fluent</em><span><i style="--w:90%"></i></span></li>
+            <li><b>Arabic</b><em>Native</em><span><i style="--w:100%"></i></span></li>
+            <li><b>German</b><em>Intermediate</em><span><i style="--w:55%"></i></span></li>
+          </ul>
+        </article>
+
+        <article class="tile tile-city">
+          <span class="tile-k"><i class="fa-solid fa-location-dot"></i> City</span>
+          <strong>Zaghouan, Tunisia</strong>
+          <span class="pin" aria-hidden="true"><i></i></span>
+        </article>
+
+        <article class="tile tile-degree">
+          <span class="tile-k"><i class="fa-solid fa-graduation-cap"></i> Degree</span>
+          <strong>Baccalaureate</strong>
+        </article>
+
+        <article class="tile tile-phone">
+          <span class="tile-k"><i class="fa-solid fa-phone"></i> Phone</span>
+          <strong><a href="tel:+21656414356">+216 56 414 356</a></strong>
+          <button class="copy" type="button" data-copy="+216 56 414 356"><i class="fa-regular fa-copy"></i> Copy</button>
+        </article>
+
+        <article class="tile tile-mail">
+          <span class="tile-k"><i class="fa-solid fa-envelope"></i> Email</span>
+          <strong><a href="mailto:tahani.beji@example.com">tahani.beji@example.com</a></strong>
+          <button class="copy" type="button" data-copy="tahani.beji@example.com"><i class="fa-regular fa-copy"></i> Copy</button>
+        </article>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2026 Tahani Beji. All rights reserved.</p>
+</footer>
+
+<script src="about.js?v=9"></script>
+</body>
+</html>

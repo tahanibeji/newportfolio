@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tahani Beji — Web Developer | Portfolio</title>
+<meta name="description" content="Portfolio and CV of Tahani Beji, Web Developer.">
+<script>document.documentElement.classList.add("js");</script>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%230b0c0e'/%3E%3Ccircle cx='50' cy='50' r='22' fill='none' stroke='%233df26b' stroke-width='6'/%3E%3Ccircle cx='50' cy='50' r='6' fill='%233df26b'/%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+<link rel="stylesheet" href="style.css?v=6">
+<!-- My Projects = full screen width (kept here so it applies even if style.css is cached) -->
+<style>
+  #projects .wrap { width: 100% !important; max-width: none !important; margin: 0 !important; }
+  #projects .sec-head { width: 100% !important; max-width: none !important; margin: 0 0 36px !important; padding: 0 1rem !important; }
+  #projects .projects-slider { width: 100% !important; max-width: none !important; margin: 0 !important; padding: 0 1rem !important; }
+</style>
+</head>
+<body>
+
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<header class="nav">
+  <div class="nav-center">
+    <a class="logo-dot" href="#top" aria-label="Tahani Beji — home"><i></i></a>
+    <a class="nav-pill active" href="#top" data-spy="top">Home</a>
+    <a class="nav-pill" href="#education" data-spy="education">Education</a>
+    <a class="nav-pill" href="#skills" data-spy="skills">Skills</a>
+    <a class="nav-pill" href="#projects" data-spy="projects">Projects</a>
+  </div>
+  <a class="btn nav-cta" href="#contact">Say hi! <span class="arr" aria-hidden="true">→</span></a>
+</header>
+
+<section class="hero" id="top">
+  <div class="hero-photo" id="heroPhoto">
+    <img src="Portrait professionnel de profil gauche-2.jpg" alt="Portrait of Tahani Beji" onerror="this.parentNode.classList.add('no-img');this.remove()">
+  </div>
+
+  <div class="hero-copy">
+    <div class="hero-tags">
+      <span class="pill-tag">Responsive</span>
+      <span class="pill-tag">User-friendly</span>
+    </div>
+    <h1 id="headline"><span class="split">Hi, I'm Tahani.</span><br><b class="role-line"><span id="role">Web Developer.</span><span class="caret" aria-hidden="true"></span></b><br><span class="split">Building daily.</span></h1>
+    <div class="hero-cta">
+      <a class="btn" href="#projects">See my work <span class="arr" aria-hidden="true">→</span></a>
+      <span class="avatar"><img src="hero.jpg" alt="" onerror="this.remove()"></span>
+      <span class="orb" aria-hidden="true"></span>
+    </div>
+  </div>
+
+  <p class="hero-sub">Passionate web developer building responsive, user-friendly websites — always learning new technologies and sharpening my skills.</p>
+</section>
+
+<main>
+  <!-- About -->
+  <section class="block" id="about">
+    <div class="wrap about-grid">
+      <div class="about-figure" id="aboutFigure">
+        <span class="ring ring-a" aria-hidden="true"></span>
+        <span class="ring ring-b" aria-hidden="true"></span>
+        <span class="glow" aria-hidden="true"></span>
+        <img class="cutout" src="about-cutout.png" alt="Tahani Beji" width="760" height="1124">
+        <span class="badge badge-1"><i></i>Open to work</span>
+        <span class="badge badge-2"><b>HTML</b> · <b>CSS</b> · <b>JS</b></span>
+      </div>
+
+      <div class="about-copy">
+        <div class="sec-head">
+          <span class="pill-tag">Welcome to my CV</span>
+          <h2>I'm Tahani Beji, a <b>Web Developer</b></h2>
+        </div>
+        <p class="about-text">I am a passionate web developer with experience in building responsive and user-friendly websites. I enjoy learning new technologies and improving my skills.</p>
+        <div class="about-actions">
+          <a class="btn" href="aboutme.html">More about me <span class="arr" aria-hidden="true">→</span></a>
+          <a class="btn btn-ghost" href="Bewerbungsunterlagen_Tahani_Beji.pdf" download>Download CV <span class="arr" aria-hidden="true">↓</span></a>
+        </div>
+        <ul class="socials">
+          <li><a href="https://www.instagram.com/tahanibji/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="mailto:tahani.beji@example.com" aria-label="Email" title="Email"><i class="fa-solid fa-envelope"></i></a></li>
+          <li><a href="https://github.com/tahanibeji" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/tahani-beji" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a></li>
+          <li><a href="https://twitter.com/tahanibji" target="_blank" rel="noopener noreferrer" aria-label="Twitter / X" title="Twitter / X"><i class="fa-brands fa-x-twitter"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+   <!-- Skills -->
+  <section class="block" id="skills">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="pill-tag">What I use</span>
+        <h2>My <b>Skills</b></h2>
+      </div>
+      <ul class="stats">
+        <li class="card stat"><i class="devicon-html5-plain"></i><strong>HTML</strong><span>Structure</span></li>
+        <li class="card stat"><i class="devicon-css3-plain"></i><strong>CSS</strong><span>Styling</span></li>
+        <li class="card stat"><i class="devicon-javascript-plain"></i><strong>JavaScript</strong><span>Interaction</span></li>
+      </ul>
+    </div>
+  </section>
+  <!-- Education -->
+  <section class="block" id="education">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="pill-tag">Learning</span>
+        <h2>My <b>Education</b></h2>
+      </div>
+      <div class="grid-2">
+        <article class="card">
+          <h3>Web Development Training</h3>
+          <p>GoMyCode – Certificate of training – <time datetime="2027">2027</time></p>
+        </article>
+        <article class="card">
+          <h3>Baccalaureate in Economics and Management</h3>
+          <p>High school "SBS" – <time datetime="2026">2026</time></p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="block" id="experience">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="pill-tag">Work</span>
+        <h2>My <b>Experience</b></h2>
+      </div>
+      <div class="grid-2">
+        <article class="card">
+          <h3>Web Developer – Company name</h3>
+          <p><time datetime="2027-01">Jan 2027</time> – Present</p>
+        </article>
+        <article class="card">
+          <h3>Software Engineer – Company name</h3>
+          <p><time datetime="2027-01">Jan 2027</time> – <time datetime="2027-12">Dec 2027</time></p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Languages -->
+  <section class="block" id="languages">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="pill-tag">Communication</span>
+        <h2>Languages I <b>speak</b></h2>
+      </div>
+      <ul class="lang-grid">
+        <li class="lang"><i class="fa-solid fa-language"></i><strong>English</strong><span>Fluent</span></li>
+        <li class="lang"><i class="fa-solid fa-comments"></i><strong>French</strong><span>Fluent</span></li>
+        <li class="lang"><i class="fa-solid fa-globe"></i><strong>Arabic</strong><span>Native</span></li>
+        <li class="lang"><i class="fa-solid fa-message"></i><strong>German</strong><span>Intermediate</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="block" id="projects">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="pill-tag">Portfolio</span>
+        <h2>My <b>Projects</b></h2>
+      </div>
+      <div class="projects-slider owl-carousel">
+        <article class="card"><div><h3>Project 1</h3><p>Short description.</p></div><a class="more" href="#">Read more <span class="arr">→</span></a></article>
+        <article class="card"><div><h3>Project 2</h3><p>Short description.</p></div><a class="more" href="#">Read more <span class="arr">→</span></a></article>
+        <article class="card"><div><h3>Project 3</h3><p>Short description.</p></div><a class="more" href="#">Read more <span class="arr">→</span></a></article>
+        <article class="card"><div><h3>Project 4</h3><p>Short description.</p></div><a class="more" href="#">Read more <span class="arr">→</span></a></article>
+        <article class="card"><div><h3>Project 5</h3><p>Short description.</p></div><a class="more" href="#">Read more <span class="arr">→</span></a></article>
+        <article class="card"><div><h3>Project 6</h3><p>Short description.</p></div><a class="more" href="#">Read more <span class="arr">→</span></a></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Message form -->
+  <section class="block" id="message">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="pill-tag">Write to me</span>
+        <h2>Send me a <b>message</b></h2>
+      </div>
+      <form class="card form" id="contactForm" novalidate>
+        <div class="form-row">
+          <label class="field">
+            <span>Your name</span>
+            <input type="text" name="name" placeholder="Tahani Beji" autocomplete="name" required>
+            <small class="err">Please enter your name.</small>
+          </label>
+          <label class="field">
+            <span>Your email</span>
+            <input type="email" name="email" placeholder="you@example.com" autocomplete="email" required>
+            <small class="err">Please enter a valid email.</small>
+          </label>
+        </div>
+        <label class="field">
+          <span>Subject</span>
+          <input type="text" name="subject" placeholder="Project, job offer, question...">
+        </label>
+        <label class="field">
+          <span>Message</span>
+          <textarea name="message" rows="6" placeholder="Tell me about your project..." required></textarea>
+          <small class="err">Please write a short message.</small>
+        </label>
+        <div class="form-foot">
+          <button class="btn" type="submit">Send message <span class="arr" aria-hidden="true">→</span></button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="block" id="contact">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="pill-tag">Get in touch</span>
+        <h2>Let's <b>talk</b></h2>
+      </div>
+      <div class="contact-grid">
+        <div class="card contact-card">
+          <address style="font-style:normal">
+            <ul class="contact-list">
+              <li><span class="ico"><i class="fa-solid fa-envelope"></i></span><a href="mailto:tahani.beji@example.com">tahani.beji@example.com</a></li>
+              <li><span class="ico"><i class="fa-solid fa-phone"></i></span><a href="tel:+21656414356">+216 56 414 356</a></li>
+              <li><span class="ico"><i class="fa-brands fa-linkedin-in"></i></span><a href="https://www.linkedin.com/in/tahani-beji" target="_blank" rel="noopener noreferrer">tahani-beji</a></li>
+              <li><span class="ico"><i class="fa-solid fa-location-dot"></i></span>Zaghouan Governorate, Tunisia</li>
+            </ul>
+          </address>
+          <h3 class="big">Let's work together on <b>your next project</b></h3>
+          <div class="actions">
+            <a class="btn" href="mailto:tahani.beji@example.com">Contact me <span class="arr" aria-hidden="true">→</span></a>
+            <a class="btn btn-ghost" href="Bewerbungsunterlagen_Tahani_Beji.pdf" download>Download CV (PDF) <span class="arr" aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+        <div class="map-wrap">
+          <iframe title="Map of Zaghouan Governorate, Tunisia"
+            src="https://www.google.com/maps?q=Zaghouan+Governorate,+Tunisia&z=10&output=embed"
+            allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2026 Tahani Beji. All rights reserved.</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="script.js?v=6"></script>
+</body>
+</html>
