@@ -96,7 +96,7 @@ b, strong { font-weight: 700; }
 .hero-photo.no-img {
   background: radial-gradient(60% 50% at 55% 40%, rgba(255,255,255,.7), transparent 70%);
 }
-.hero-copy { position: relative; z-index: 2; max-width: 560px; margin-top: -2vh; }
+.hero-copy { padding-left: 100px; position: relative; z-index: 2; max-width: 560px; margin-top: -2vh; }
 .hero-tags { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 22px; }
 .hero h1 {
   font-size: clamp(2.2rem, 1.2rem + 3.6vw, 3.9rem); font-weight: 300;
@@ -115,8 +115,8 @@ b, strong { font-weight: 700; }
   border: 2px solid rgba(255,255,255,.9);
 }
 .hero-sub {
-  position: absolute; left: var(--gutter); bottom: 34px; z-index: 2;
-  max-width: 330px; font-size: 13px; color: var(--ink);
+  position: absolute; left: var(--gutter); bottom: 34px; z-index: 2; padding-left: 100px;
+  max-width: 450px; font-size: 13px; color: var(--ink);
 }
 
 /* ---------- SECTIONS ---------- */
@@ -127,7 +127,7 @@ b, strong { font-weight: 700; }
 #projects .wrap { width: 100%; max-width: none; margin: 0; }
 #projects .sec-head { width: 100%; max-width: none; margin: 0 0 36px; padding: 0 1rem; }
 #projects .projects-slider { width: 100%; max-width: none; margin: 0; padding: 0 1rem; }
-section.block { padding: 200px 0 200px; }
+section.block { padding: 100px 0 100px; }
 .sec-head { margin-bottom: 36px; }
 .sec-head .pill-tag { margin-bottom: 16px; }
 .sec-head h2 {
@@ -181,7 +181,7 @@ section.block { padding: 200px 0 200px; }
    ========================================================= */
 #projects {
   position: relative; isolation: isolate; overflow: hidden;
-  width: auto; margin: 110px 12px 0; padding: 110px 0 100px;
+  width: auto; margin: 110px 12px 110px; padding: 110px 0 100px;
   border-radius: 44px; color: #fff;
   background:
     radial-gradient(70% 60% at 85% 0%, rgba(61,242,107,.16), transparent 60%),
@@ -288,6 +288,7 @@ body.proj-dark .nav.scrolled .nav-pill:not(.active) { background: rgba(255,255,2
 #projects { border: 1px solid rgba(255,255,255,.08); }
 @media (prefers-reduced-motion: reduce) { .bg-shift { transition: none; } }
 /* Contact */
+#contact {padding-top: 100px;   }
 .contact-grid { display: grid; grid-template-columns: 1fr 1.1fr; gap: 16px; align-items: stretch; }
 .contact-list li { display: flex; align-items: center; gap: 14px; padding: 10px 0; font-size: .98rem; }
 .contact-list .ico {
